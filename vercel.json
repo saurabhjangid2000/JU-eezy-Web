@@ -2,13 +2,11 @@
   "version": 2,
   "redirects": [
     { "source": "/yashraj", "destination": "https://yashraj.now.sh/" },
+    { "source": "/deepak", "destination": "https://hey-deepak.github.io/Pass-Fail-Detector/" },
+    { "source": "/lavish", "destination": "https://lswarnkar1.github.io/" },
     {
       "source": "/demo",
       "destination": "https://www.youtube.com/watch?v=40R49TvD_FM"
     }
-  ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/.*", "status": 404, "dest": "/404" }
   ]
 }
