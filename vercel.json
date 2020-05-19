@@ -1,9 +1,14 @@
 {
+  "version": 2,
   "redirects": [
     { "source": "/yashraj", "destination": "https://yashraj.now.sh/" },
     {
       "source": "/demo",
       "destination": "https://www.youtube.com/watch?v=40R49TvD_FM"
     }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/404" }
   ]
 }

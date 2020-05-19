@@ -11,6 +11,8 @@ Website built with GatsbyJS.
 - `yarn start` - start for development
 - `yarn build` - build for production
 
+> For Redirection add your item to vercel.json 😁
+
 ### Blogs shifted [Here](https://github.com/yashrajmishra/JU-eezy-Blog)
 
 ## Resources
