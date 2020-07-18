@@ -61,7 +61,7 @@ class Gallery extends Component {
         <a
           key={obj.src}
           href={obj.src}
-          onClick={e => this.openLightbox(i, e)}
+          onClick={(e) => this.openLightbox(i, e)}
           className={`${obj.full ? 'landscape' : ''}`}
         >
           <img src={obj.thumbnail} alt="" />
@@ -77,7 +77,7 @@ class Gallery extends Component {
         {this.renderGallery()}
         <Lightbox
           currentImage={this.state.currentImage}
-          images={this.props.images.map(img => {
+          images={this.props.images.map((img) => {
             img.caption = `${img.title} - ${img.desc}`;
             return img;
           })}

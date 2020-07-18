@@ -7,10 +7,15 @@ export default function ContactForm() {
       </header>
       <div className="content">
         <p>
-          Found anything interesting? Found a bug? Have any suggestion? Want to work with us?<br/>
+          Found anything interesting? Found a bug? Have any suggestion? Want to
+          work with us?
+          <br />
           We are listening. Just drop your message here.
         </p>
-        <form action="https://getform.io/f/6f09bce4-ae59-4988-97ba-3bc7bea19613" method="POST">
+        <form
+          action="https://getform.io/f/6f09bce4-ae59-4988-97ba-3bc7bea19613"
+          method="POST"
+        >
           <div className="fields">
             <div className="field half">
               <input type="text" name="name" id="name" placeholder="Name" />
@@ -35,7 +40,9 @@ export default function ContactForm() {
                 className="button primary"
               />
             </li>
-            <li><input type="reset" value="Reset" /></li>
+            <li>
+              <input type="reset" value="Reset" />
+            </li>
           </ul>
         </form>
       </div>

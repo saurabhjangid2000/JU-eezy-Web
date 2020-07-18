@@ -22,6 +22,11 @@ export default function SideFooter() {
                 Menu
               </Link>
             </li>
+            <li>
+              <Link to="/pfd" className="button icon fa-file">
+                Pass Fail Detector
+              </Link>
+            </li>
           </ul>
         </li>
         {config.emailId && (
@@ -34,7 +39,7 @@ export default function SideFooter() {
         <li>
           <h3>Social Links</h3>
           <ul className="icons">
-            {config.socialLinks.map(social => {
+            {config.socialLinks.map((social) => {
               const { icon, name, url } = social;
               return (
                 <li key={url}>

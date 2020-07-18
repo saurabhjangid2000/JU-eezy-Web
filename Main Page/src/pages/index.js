@@ -48,7 +48,10 @@ const IndexPage = () => (
           </p>
           <ul className="actions">
             <li>
-              <a href="https://play.google.com/store/apps/details?id=com.lavish.jueezy" className="button primary icon fa-android">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.lavish.jueezy"
+                className="button primary icon fa-android"
+              >
                 Go to app
               </a>
             </li>

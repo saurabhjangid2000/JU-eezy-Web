@@ -8,6 +8,7 @@ import SideFooter from '../components/SideFooter';
 import heroImage from '../assets/img/bg.jpg';
 import ContactForm from '../components/ContactForm';
 import GpaCalculator from '../components/GpaCalculator';
+import MarksCalculator from '../components/MarksCalculator';
 
 const PassFailPage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const PassFailPage = () => (
         </div>
       </section>
       <GpaCalculator />
+      <MarksCalculator />
       {/* Just Ask Yashraj */}
       <section>
         <ContactForm />

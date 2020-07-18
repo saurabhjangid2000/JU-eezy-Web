@@ -12,8 +12,8 @@ export default function TodayMenu() {
   useEffect(() => {
     // get data from api
     fetch(config.menuApiAddress)
-      .then(response => response.json()) // parse JSON from request
-      .then(resultData => {
+      .then((response) => response.json()) // parse JSON from request
+      .then((resultData) => {
         console.log(resultData);
         // set data for the number of dishes
         setbreakfastdata(

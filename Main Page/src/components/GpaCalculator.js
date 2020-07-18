@@ -18,7 +18,7 @@ export default function GpaCalculator() {
       (Aplus + justA + justB + justC + justD + justE)
     ).toFixed(2);
     console.log(total);
-    setgpaResult('Your GPA is: ' +  total.toString());
+    setgpaResult('Your GPA is: ' + total.toString());
   }
 
   return (
@@ -37,57 +37,52 @@ export default function GpaCalculator() {
                   type="number"
                   defaultValue="0"
                   placeholder="Enter the number of Grades"
-                  onChange={e => setAplus(e.target.valueAsNumber)}
+                  onChange={(e) => setAplus(e.target.valueAsNumber)}
                 />
               </div>
               <div className="col-4 col-12-xsmall">
                 <h3>A</h3>
                 <input
                   type="number"
-
                   defaultValue="0"
                   placeholder="Enter the number of Grades"
-                  onChange={e => setjustA(e.target.valueAsNumber)}
+                  onChange={(e) => setjustA(e.target.valueAsNumber)}
                 />
               </div>
               <div className="col-4 col-12-xsmall">
                 <h3>B</h3>
                 <input
                   type="number"
-
                   defaultValue="0"
                   placeholder="Enter the number of Grades"
-                  onChange={e => setjustB(e.target.valueAsNumber)}
+                  onChange={(e) => setjustB(e.target.valueAsNumber)}
                 />
               </div>
               <div className="col-4 col-12-xsmall">
                 <h3>C</h3>
                 <input
                   type="number"
-
                   defaultValue="0"
                   placeholder="Enter the number of Grades"
-                  onChange={e => setjustC(e.target.valueAsNumber)}
+                  onChange={(e) => setjustC(e.target.valueAsNumber)}
                 />
               </div>
               <div className="col-4 col-12-xsmall">
                 <h3>D</h3>
                 <input
                   type="number"
-
                   defaultValue="0"
                   placeholder="Enter the number of Grades"
-                  onChange={e => setjustD(e.target.valueAsNumber)}
+                  onChange={(e) => setjustD(e.target.valueAsNumber)}
                 />
               </div>
               <div className="col-4 col-12-xsmall">
                 <h3>E</h3>
                 <input
                   type="number"
-
                   defaultValue="0"
                   placeholder="Enter the number of Grades"
-                  onChange={e => setjustE(e.target.valueAsNumber)}
+                  onChange={(e) => setjustE(e.target.valueAsNumber)}
                 />
               </div>
               <div className="col-12">
@@ -114,7 +109,9 @@ export default function GpaCalculator() {
         </header>
         <div className="content">
           <h1>{gpaResult}</h1>
-          <h5>DISCLAIMER: YOUR CALCULATED GPA HERE MAY HAVE AN ERROR OF +/-0.3.</h5>
+          <h5>
+            DISCLAIMER: YOUR CALCULATED GPA HERE MAY HAVE AN ERROR OF +/-0.3.
+          </h5>
         </div>
       </section>
     </>
